@@ -1,0 +1,94 @@
+body
+{
+	background-image: url(none);
+	background-color: #3E4B51;
+	background-position: 0px 0px;
+	background-repeat: no-repeat;
+}
+
+.notext {
+	visibility: none;
+}
+
+.center {
+	margin: auto;
+	border: 0px solid blue;
+	padding: 5px;
+}
+
+.text-center {
+	margin: auto;
+	border: 0px solid green;
+	padding: 0px;
+	text-align: center;
+}
+
+#nameContainer {
+	position: absolute;
+	left: 87.438px;
+	top: 44.558px;
+	z-index: 5;
+	background-color: none;
+}
+
+.nameText {
+	font-size: 34px;
+	color: rgb(6, 87, 4);
+	line-height: 1.086;
+	text-align: center;
+	z-index: 5;
+}
+
+#numberContainer {
+	position: absolute;
+	left: 1086.563px;
+	top: 45.587px;
+	z-index: 4;
+	background-color: none;
+}
+
+.numberText {
+	font-size: 37px;
+	color: rgb(6, 87, 4);
+	line-height: 0.944;
+	text-align: center;
+}
+
+#wordContainer
+{
+	z-index: 6;
+	background-color: none;
+	margin-top: 100px;
+}
+
+#referenceContainer
+{
+	margin: auto;
+	top: 81.049px;
+	z-index: 6;
+	background-color: none;
+}
+
+.referenceText {
+	font-size: 36px;
+	font-weight: bold;
+	line-height: 1.58;
+	color: rgb(1, 1, 1);
+	text-align: center;
+}
+
+#rhemaContainer {
+	margin: auto;
+	margin-top: 100px;
+	width: 700px;
+	height: 239px;
+	z-index: 3;
+	background-color: none;
+}
+
+.rhemaText {
+	font-size: 30px;
+	color: rgb(1, 1, 1);
+	line-height: 1.6;
+	text-align: center;
+}
